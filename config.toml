@@ -1,0 +1,77 @@
+baseURL = "https://luisfelipegarciah.com/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Luis Felipe Garcia H · Software Developer"
+theme = "adritian"
+
+[languages]
+  [languages.en]
+    title = "My New Hugo i18n Site"
+    languageName = "English"
+    weight = 1
+  [languages.gr]
+    title = "Mi nuevo sitop i18n"
+    languageName = "Spanish"
+    weight = 2
+
+[build]
+  writeStats = true
+  
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  link = "css/main.css"
+  [[params.plugins.css]]
+  link = "css/rad-icons.css"
+  [[params.plugins.css]]
+  link = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+ 
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Sobre Mí"
+  URL = "index.html#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Experiencia"
+  URL = "index.html#experience"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contacto"
+  URL = "#contact"
+  weight = 4
+
+  [[menu.footer]]
+  name = "💁‍♂️ Sobre mí"
+  URL = "index.html#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "📨 Contacto"
+  URL = "index.html#contact"
+  weight = 5
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "contact"]
+  googleTagManagerID = "example" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "LuisFelipe"
+    text2 = "Garcia H"
+
+  [params.footer]
+      copyright = "© Luis Felipe Garcia H. - 2023"

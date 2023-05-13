@@ -1,0 +1,20 @@
+{
+  "name": "luisfelipegarciah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-size": "^4.0.1",
+    "gulp-strip-debug": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "node-gyp": "^9.3.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0"
+  }
+}

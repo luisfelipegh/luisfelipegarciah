@@ -1,0 +1,212 @@
+# homepage
+homepage:
+  head:
+    title: "Luis Felipe Garcia H | Ingeniero de Sistemas & desarrollador de software"
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Luis Felipe"
+  subtitle: "Ingeniero de Sistemas"
+  description: "Cuento con más de 4 años de experiencia en diseño, desarrollo y mantenimiento de aplicaciones web escalables y eficientes. Capaz de trabajar en proyectos de principio a fin, desde la conceptualización hasta la implementación y la solución de problemas, actualmente trabajo en <a target='_blank' href='https://www.placetopay.com/'>Evertec Placetopay</a> compañía líder de tecnología y procesamiento de transacciones operando en 26 países"
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "images/luisfelipe.jpg"
+    _2x: "images/luisfelipe.jpg"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "images/luisfelipe.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacto"
+    URL: "index.html#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
+
+    - icon: "github"
+      URL: "https://github.com/luisfelipegh"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/luisfelipegarciah/"
+
+# about
+about:
+  enable: false
+  title: "Who am I?"
+  content: 'html description'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
+  image:
+    x: "images/luisfelipe.jpg"
+    _2x: "images/luisfelipe.jpg"
+
+# education
+education:
+  enable: true
+  title: "Formación Académica"
+  items:
+    - university: "Universidad de Medellín"
+      year: "2015-2020"
+      degree: "Ingeniero de Sistemas"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia Laboral"
+  description: "Más de 5 años de experiencia, trabajando para desarrollar productos que ayuden y faciliten la vida de las"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/company/radity/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Descarga mi HDV"
+    URL: "/files/cv/HDV - Luis Felipe Garcia.pdf"
+  button3:
+    icon: "icon-profile-fill"
+    btnText: "Download my CV"
+    URL: "/files/cv/CV - Luis Felipe Garcia.pdf"
+
+  items:
+    - title: "Sr. Front-End Developer"
+      company: "Radity"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Front-End Developer"
+      company: "Textic"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Front-End Developer"
+      company: "Cyberse"
+      duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+#client_and_work:
+#  title: "Clients & Works"
+#  enable: false
+#
+#  clients:
+#    - logo:
+#        x: "img/clients/asgardia.png"
+#        _2x: "img/clients/asgardia@2x.png"
+#      alt: "Asgardia"
+#
+#    - logo:
+#        x: "img/clients/earth-2.png"
+#        _2x: "img/clients/earth-2@2x.png"
+#      alt: "Earth 2.0"
+#
+#    - logo:
+#        x: "img/clients/goldline.png"
+#        _2x: "img/clients/goldline@2x.png"
+#      alt: "Goldline"
+#
+#    - logo:
+#        x: "img/clients/kanba.png"
+#        _2x: "img/clients/kanba@2x.png"
+#      alt: "Kanba"
+#
+#    - logo:
+#        x: "img/clients/zoo-tv.png"
+#        _2x: "img/clients/zoo-tv@2x.png"
+#      alt: "Zoo"
+#
+#    - logo:
+#        x: "img/clients/ztos.png"
+#        _2x: "img/clients/ztos@2x.png"
+#      alt: "Ztos"
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+#testimonial:
+#  enable: true
+#  title: "Testimonials"
+#  items:
+#    - name: "Daniel Jordan"
+#      position: "Phonet, CEO"
+#      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+#      image:
+#        x: "img/testimonials/daniel-jordan.jpg"
+#        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+#
+#    - name: "Jonathan Peters"
+#      position: "Textic, CEO"
+#      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+#      image:
+#        x: "img/testimonials/jonathan-peters.jpg"
+#        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+#
+#    - name: "Antonio Willis"
+#      position: "Cyberse, CEO"
+#      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+#      image:
+#        x: "img/testimonials/antonio-willis.jpg"
+#        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contacto"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Nombre Completo"
+    email: "Correo electrónico"
+    message: "Escribe tu mensaje acá"
+  phone:
+    title: "Celular"
+    number: "+57 (315) 280 73 34"
+  email:
+    title: "Correo electrónico"
+    email: '<a href="mailto:luisfelipegarciacsj@gmail.com">luisfelipegarciacsj@gmail.com</a>'
+  address:
+    title: "Ubicación"
+    address: "Medellín, Colombia"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar"
+
+# newsletter
+#newsletter:
+#  enable: true
+#  title: "Newsletter subscription"
+#  success_message: "Successfully subscribed"
+#  error_message: "Error while subscribing."
+#  note: "We'll never share your email with anyone else."
