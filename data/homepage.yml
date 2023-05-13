@@ -9,11 +9,11 @@ showcase:
   subtitle: "Ingeniero de Sistemas"
   description: "Cuento con más de 4 años de experiencia en diseño, desarrollo y mantenimiento de aplicaciones web escalables y eficientes. Capaz de trabajar en proyectos de principio a fin, desde la conceptualización hasta la implementación y la solución de problemas, actualmente trabajo en <a target='_blank' href='https://www.placetopay.com/'>Evertec Placetopay</a> compañía líder de tecnología y procesamiento de transacciones operando en 26 países."
   image:
-    alt: "Showcase keyboard and mouse image"
+    alt: "Luis Felipe Garcia H"
     x: "images/luisfelipe.png"
     _2x: "images/luisfelipe.png"
   imageMobile:
-    alt: "Showcase keyboard and mouse image"
+    alt: "Luis Felipe Garcia H"
     x: "images/luisfelipe.png"
 
   button:
