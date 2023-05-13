@@ -14,7 +14,6 @@
       <div class="container-fluid">
         <a class="navbar-brand mx-auto" href="{{ .Site.BaseURL | absURL }}">
           <span>{{ .Site.Params.logo.text1 }}</span>
-          
           <span>{{ .Site.Params.logo.text2 }}</span>
         </a>
         <button
@@ -31,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-lg-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="{{ .Site.BaseURL | absURL }}">HOME</a>
+              <a class="nav-link active" href="{{ .Site.BaseURL | absURL }}">INICIO</a>
             </li>
             {{ range .Site.Menus.header }}
             <li class="nav-item">
