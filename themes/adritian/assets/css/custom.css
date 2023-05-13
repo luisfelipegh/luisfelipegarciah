@@ -7,6 +7,10 @@ html body ::selection{
     background-color:#062446;color:#fff
 }
 
+.profile-image{
+    text-align: center;
+}
+
 .profile-image img{
     max-inline-size: 100%;
     block-size: auto;

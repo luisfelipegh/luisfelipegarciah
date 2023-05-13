@@ -1,7 +1,8 @@
 # homepage
-homepage:
-  head:
-    title: "Luis Felipe Garcia H | Ingeniero de Sistemas & desarrollador de software"
+
+head:
+  title: "Luis Felipe Garcia H | Ingeniero de Sistemas & desarrollador de software" 
+  description: "Desarrollador de software PHP(Laravel), VueJS, NuxtJS"
 # showcase
 showcase:
   enable: true
@@ -111,17 +112,17 @@ client_and_work:
   #     _2x: "img/clients/ztos@2x.png"
   #   alt: "Ztos"
 
-  works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      #image:
-      #  x: "img/works/radity-finance.jpg"
-      #  _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
+#  works:
+#    - title: "Radity Finance - UI Kit"
+#      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+#      button:
+#        icon: "icon-arrow-right"
+#        btnText: "Case Study"
+#        URL: "#"
+#      #image:
+#      #  x: "img/works/radity-finance.jpg"
+#      #  _2x: "img/works/radity-finance@2x.jpg"
+#      is_even: true
 
 # testimonial
 #testimonial:

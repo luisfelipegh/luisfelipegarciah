@@ -71,7 +71,7 @@ theme = "adritian"
 
   [params.logo]
     text1 = "LuisFelipe"
-    text2 = "Garcia H"
+    text2 = "GarciaH"
 
   [params.footer]
       copyright = "© Luis Felipe Garcia H. - 2023"
