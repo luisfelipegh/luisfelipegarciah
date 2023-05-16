@@ -22,3 +22,28 @@
     </div>
 </section>
 {{ end }}
+
+{{ if .Site.Data.homepage.courses.enable }}
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.courses.title }}</h2>
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.courses.items }}
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0 pt-2">
+                        <div class="education">
+                            <div class="education__date">{{ .year }}</div>
+                            <div class="education__title">{{ .university }}</div>
+                            <div class="education__degree">
+                                {{ .degree }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
