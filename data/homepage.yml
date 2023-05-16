@@ -54,11 +54,24 @@ education:
       year: "2015-2020"
       degree: "Ingeniero de Sistemas"
 
+courses:
+  enable: true
+  title: "Cursos"
+  items:
+    - university: "Técnicas avanzadas de resolución de conflictos"
+      year: "2023"
+      degree: "LinkedIn"
+    - university: "Transformación digital: Equipos online y trabajo colaborativo"
+      year: "2022"
+      degree: "LinkedIn"
+    - university: "Google Cloud Platform Fundamentals: Core Infrastructure"
+      year: "2020"
+      degree: "Coursera"
 # experience
 experience:
   enable: true
   title: "Experiencia Laboral"
-  description: "Más de 5 años de experiencia, trabajando para desarrollar productos que ayuden y faciliten la vida de las"
+  description: "Más de 5 años de experiencia, trabajando para desarrollar productos que ayuden y faciliten la vida de las personas."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
