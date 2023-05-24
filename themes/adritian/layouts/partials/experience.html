@@ -1,4 +1,7 @@
-{{ if .Site.Data.homepage.experience.enable }}
+{{ $home := .Scratch.Get "homePage"}}
+{{ $experience := $home.experience }}
+
+{{ if $experience.enable }}
 <section id="experience" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row flex-column-reverse flex-md-row rad-fade-down">
@@ -14,10 +17,10 @@
                 </div>
                 {{ end }}
                 <div class="all-experience-container">
-                    <a href="{{ absURL "experience" }} " title=" See additional experience"
+                    <a href="{{ absLangURL "experience" }} " title=" See additional experience"
                         class="btn btn-primary btn-all-experience">
-                        {{ .Site.Data.homepage.experience.button4.btnText }}
-                        <i class="{{ .Site.Data.homepage.experience.button4.icon }}"></i>
+                        {{ $experience.button4.btnText }}
+                        <i class="{{ $experience.button4.icon }}"></i>
                     </a>
                 </div>
                 <!--{{ $xpCount := len $xp }}
@@ -33,8 +36,8 @@
                         {{ $xpExtra := sub $xpCount 6 }}
                         <em>And {{ $xpExtra }} more</em><br/>
                         <a href="{{ absURL "experience" }} " title="See additional {{ $xpExtra }} experience items" class="btn btn-primary btn-all-experience">
-                            <i class="{{ .Site.Data.homepage.experience.button4.icon }}"></i>
-                            {{ .Site.Data.homepage.experience.button4.btnText }}
+                            <i class="{{ $experience.button4.icon }}"></i>
+                            {{ $experience.button4.btnText }}
                         </a>
                     </div>
                 {{ end }} -->

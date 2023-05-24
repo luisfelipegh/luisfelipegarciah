@@ -1,11 +1,14 @@
-{{ if .Site.Data.homepage.education.enable }}
+{{ $home := .Scratch.Get "homePage"}}
+{{ $education := $home.education }}
+
+{{ if $education.enable }}
 <section class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row rad-fade-down">
             <div class="col-12">
-                <h2>{{ .Site.Data.homepage.education.title }}</h2>
+                <h2>{{ $education.title }}</h2>
                 <div class="row pt-2 pt-md-4">
-                    {{ range .Site.Data.homepage.education.items }}
+                    {{ range $education.items }}
                     <div class="col-12 col-sm-6 mb-4 mb-sm-0">
                         <div class="education">
                             <div class="education__date">{{ .year }}</div>
@@ -23,14 +26,16 @@
 </section>
 {{ end }}
 
-{{ if .Site.Data.homepage.courses.enable }}
+{{ $courses := $home.courses }}
+
+{{ if $courses.enable }}
 <section class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row rad-fade-down">
             <div class="col-12">
-                <h2>{{ .Site.Data.homepage.courses.title }}</h2>
+                <h2>{{ $courses.title }}</h2>
                 <div class="row pt-2 pt-md-4">
-                    {{ range .Site.Data.homepage.courses.items }}
+                    {{ range $courses.items }}
                     <div class="col-12 col-sm-6 mb-4 mb-sm-0 pt-2">
                         <div class="education">
                             <div class="education__date">{{ .year }}</div>

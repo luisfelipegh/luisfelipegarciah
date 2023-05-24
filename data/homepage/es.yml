@@ -1,0 +1,117 @@
+# homepage
+title: "Luis Felipe Garcia H | Ingeniero de Sistemas & desarrollador de software" 
+
+head:
+  title: "Luis Felipe Garcia H | Ingeniero de Sistemas & desarrollador de software" 
+  description: "Desarrollador de software PHP(Laravel), VueJS, NuxtJS"
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Luis Felipe"
+  subtitle: "Ingeniero de Sistemas"
+  description: "Cuento con más de 4 años de experiencia en diseño, desarrollo y mantenimiento de aplicaciones web escalables y eficientes. Capaz de trabajar en proyectos de principio a fin, desde la conceptualización hasta la implementación y la solución de problemas, actualmente trabajo en <a target='_blank' href='https://www.placetopay.com/'>Evertec Placetopay</a> compañía líder de tecnología y procesamiento de transacciones operando en 26 países."
+  image:
+    alt: "Luis Felipe Garcia H"
+    x: "images/luisfelipe.png"
+    _2x: "images/luisfelipe.png"
+  imageMobile:
+    alt: "Luis Felipe Garcia H"
+    x: "images/luisfelipe.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacto"
+    URL: "index.html#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
+
+    - icon: "github"
+      URL: "https://github.com/luisfelipegh"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/luisfelipegarciah/"
+
+# about
+about:
+  enable: false
+  title: "Who am I?"
+  content: 'html description'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
+  image:
+    x: "images/luisfelipe.png"
+    _2x: "images/luisfelipe.png"
+
+# education
+education:
+  enable: true
+  title: "Formación Académica"
+  items:
+    - university: "Universidad de Medellín"
+      year: "2015-2020"
+      degree: "Ingeniero de Sistemas"
+
+courses:
+  enable: true
+  title: "Cursos"
+  items:
+    - university: "Técnicas avanzadas de resolución de conflictos"
+      year: "2023"
+      degree: "LinkedIn"
+    - university: "Transformación digital: Equipos online y trabajo colaborativo"
+      year: "2022"
+      degree: "LinkedIn"
+    - university: "Google Cloud Platform Fundamentals: Core Infrastructure"
+      year: "2020"
+      degree: "Coursera"
+# experience
+experience:
+  enable: true
+  title: "Experiencia Laboral"
+  description: "Más de 5 años de experiencia, trabajando para desarrollar productos que ayuden y faciliten la vida de las personas."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Descarga mi HDV"
+    URL: "/files/cv/HDV - Luis Felipe Garcia.pdf"
+  button4:
+    icon: "icon-arrow-right"
+    btnText: "Ver detalle"
+    URL: "/experience/"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+contact:
+  enable: true
+  title: "Contacto"
+  form:
+    method: "POST"
+    action: "https://formspree.io/f/meqwdkor"
+    full_name: "Nombre Completo"
+    email: "Correo electrónico"
+    message: "Escribe tu mensaje acá"
+  phone:
+    title: "Celular"
+    number: '<a href="tel:+573152807334">+57 (315) 280 73 34</a>'
+  email:
+    title: "Correo electrónico"
+    email: '<a href="mailto:luisfelipegarciacsj@gmail.com">luisfelipegarciacsj@gmail.com</a>'
+  address:
+    title: "Ubicación"
+    address: "Medellín, Colombia"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar"
+
+breadcrumbs:
+  experience: "Experiencia Laboral"

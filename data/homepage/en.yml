@@ -1,0 +1,112 @@
+# homepage
+
+head:
+  title: "Luis Felipe Garcia H | Software developer" 
+  description: "Software Developer PHP(Laravel), VueJS, NuxtJS"
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I´m Luis Felipe"
+  subtitle: "Systems Engineer"
+  description: "I have more than 4 years of experience in design, development and maintenance of scalable and efficient web applications. Capable of working on projects from start to end, from conceptualization to implementation and troubleshooting, I currently work at <a target='_blank' href='https://www.placetopay.com/'>Evertec Placetopay</a>, a leading technology and transaction processing company operating in 26 countries."
+  image:
+    alt: "Luis Felipe Garcia H"
+    x: "images/luisfelipe.png"
+    _2x: "images/luisfelipe.png"
+  imageMobile:
+    alt: "Luis Felipe Garcia H"
+    x: "images/luisfelipe.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "index.html#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
+
+    - icon: "github"
+      URL: "https://github.com/luisfelipegh"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/luisfelipegarciah/"
+
+# about
+about:
+  enable: false
+  title: "Who am I?"
+  content: 'html description'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
+  image:
+    x: "images/luisfelipe.png"
+    _2x: "images/luisfelipe.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Universidad de Medellín"
+      year: "2015-2020"
+      degree: "Systems Engineering"
+
+courses:
+  enable: true
+  title: "Courses"
+  items:
+    - university: "Advanced conflict resolution techniques"
+      year: "2023"
+      degree: "LinkedIn"
+    - university: "Digital transformation: online teams and collaborative work"
+      year: "2022"
+      degree: "LinkedIn"
+    - university: "Google Cloud Platform Fundamentals: Core Infrastructure"
+      year: "2020"
+      degree: "Coursera"
+# experience
+experience:
+  enable: true
+  title: "Work Experience"
+  description: "More than 5 years of experience, working to develop products that help and facilitate people's lives."
+
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download my CV"
+    URL: "/files/cv/CV - Luis Felipe Garcia.pdf"
+  button4:
+    icon: "icon-arrow-right"
+    btnText: "See Details"
+    URL: "/experience/"
+
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "https://formspree.io/f/meqwdkor"
+    full_name: "Full Name"
+    email: "Email"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone"
+    number: '<a href="tel:+573152807334">+57 (315) 280 73 34</a>'
+  email:
+    title: "Email"
+    email: '<a href="mailto:luisfelipegarciacsj@gmail.com">luisfelipegarciacsj@gmail.com</a>'
+  address:
+    title: "Location"
+    address: "Medellín, Colombia"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send"
+
+breadcrumbs:
+  experience: "Work Experience"
