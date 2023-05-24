@@ -4,9 +4,14 @@
 <meta name="theme-color" content="#062446" >
 <link rel="preconnect" href="https://www.googletagmanager.com">
 
+{{ $homePage := index .Site.Data.homepage (string .Site.Language) }}
+{{ .Scratch.Set "homePage" $homePage}}
+
+{{ $head := .Scratch.Get "homePage"}}
+{{ $head = $head.head }}
 <!-- endinject -->
-<title>{{ .Site.Data.homepage.head.title }}</title>
-<meta name="description" content="{{ .Site.Data.homepage.head.description }}">
+<title>{{ $head.title }}</title>
+<meta name="description" content="{{ $head.description }}">
 
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.googleTagManagerID }}" height="0"
   width="0" style="display: none; visibility: hidden"></iframe></noscript>

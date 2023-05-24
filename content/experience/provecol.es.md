@@ -1,8 +1,8 @@
 ---
 date: 2016-05-01T00:00:00+01:00
 draft: false
-title: "Auxiliar de Sistemas - Provecol Antioquia"
-jobTitle: "Auxiliar de Sistemas → Desarrollador de Software"
+title: "Auxiliar de Sistemas"
+jobTitle: "Auxiliar de Sistemas"
 company: "Provecol Antioquia"
 location: "Itagui, Colombia"
 duration: "2016 - 2019"

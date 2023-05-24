@@ -1,17 +1,99 @@
-baseURL = "https://luisfelipegh.github.io/luisfelipegarciah/"
-languageCode = "en"
+baseURL = "https://luisfelipegh.github.io"
+languageCode = "es"
 DefaultContentLanguage = "en"
+
 title = "Luis Felipe Garcia H · Software Developer"
 theme = "adritian"
 
 [languages]
-  [languages.en]
-    title = "My New Hugo i18n Site"
-    languageName = "English"
+
+  [languages.es]
+    title = "Español"
+    code = "es"
     weight = 1
-  [languages.gr]
-    title = "Mi nuevo sitop i18n"
-    languageName = "Spanish"
+
+    [languages.es.params]
+      buttonLanguage = "Idioma"
+      homeText = "Inicio"
+
+  [[languages.es.menu.header]]
+    name = "Inicio"
+    URL = "index.html"
+    weight = 1
+
+  [[languages.es.menu.header]]
+    name = "Sobre Mí"
+    URL = "index.html#about"
+    weight = 2
+
+  [[languages.es.menu.header]]
+    name = "Experiencia"
+    URL = "index.html#experience"
+    weight = 3
+
+  [[languages.es.menu.header]]
+    name = "Contacto"
+    URL = "#contact"
+    weight = 4
+
+  [[languages.es.menu.footer]]
+    name = "🏠 Inicio"
+    URL = "index.html"
+    weight = 1
+
+  [[languages.es.menu.footer]]
+    name = "💁‍♂️ Sobre mí"
+    URL = "index.html#about"
+    weight = 2
+
+  [[languages.es.menu.footer]]
+    name = "📨 Contacto"
+    URL = "index.html#contact"
+    weight = 3
+
+
+  [languages.en]
+    title = "English"
+    weight = 2
+    code = "en"
+
+    [languages.en.params]
+      buttonLanguage = "Language"
+      homeText = "Home"
+
+  [[languages.en.menu.header]]
+    name = "Home"
+    URL = "index.html"
+    weight = 1
+
+  [[languages.en.menu.header]]
+    name = "About me"
+    URL = "index.html#about"
+    weight = 2
+
+  [[languages.en.menu.header]]
+    name = "Experience"
+    URL = "index.html#experience"
+    weight = 3
+
+  [[languages.en.menu.header]]
+    name = "Contact"
+    URL = "#contact"
+    weight = 4
+
+  [[languages.en.menu.footer]]
+    name = "🏠 Home"
+    URL = "index.html"
+    weight = 1
+
+  [[languages.en.menu.footer]]
+    name = "💁‍♂️ About me"
+    URL = "index.html#about"
+    weight = 2
+
+  [[languages.en.menu.footer]]
+    name = "📨 Contact"
+    URL = "index.html#contact"
     weight = 2
 
 [build]
@@ -35,38 +117,10 @@ theme = "adritian"
   URL = "js/sticky-header.js"
  
 
-# navigation
-[menu]
-
-  [[menu.header]]
-  name = "Sobre Mí"
-  URL = "index.html#about"
-  weight = 2
-
-  [[menu.header]]
-  name = "Experiencia"
-  URL = "index.html#experience"
-  weight = 3
-
-  [[menu.header]]
-  name = "Contacto"
-  URL = "#contact"
-  weight = 4
-
-  [[menu.footer]]
-  name = "💁‍♂️ Sobre mí"
-  URL = "index.html#about"
-  weight = 2
-
-  [[menu.footer]]
-  name = "📨 Contacto"
-  URL = "index.html#contact"
-  weight = 5
-
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "contact"]
+  sections = ["showcase", "education", "experience", "contact"]
   googleTagManagerID = "GTM-582JNJ4" # Google Analytics works with Google Tag Manager
 
   [params.logo]

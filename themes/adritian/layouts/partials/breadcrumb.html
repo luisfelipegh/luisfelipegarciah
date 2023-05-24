@@ -1,7 +1,11 @@
+{{ $homePage := .Scratch.Get "homePage"}}
+{{ $breadCrumbs := $homePage.breadcrumbs }}
+
+{{ $currentLanguage := .Site.Language }}
 <section id="breadcrumb-bar" class="breadcrumb-bar">
     <div class="container">
         <ul class="breadcrumbs">
-            <li class="breadcrum-item"><span><a href="{{ relURL "" }}">Home</a></span></li>
+            <li class="breadcrum-item"><span><a href="{{ relLangURL "" }}">{{ .Site.Params.HomeText }}</a></span></li>
             {{- $.Scratch.Set "url" "" -}}
             {{- range (split .RelPermalink "/") -}}
                 {{- if (gt (len .) 0) -}}    
@@ -19,7 +23,10 @@
                             <li class="breadcrum-item current">{{ .Title }}</li>
                         {{- end -}}
                     {{- else -}}
-                        <li class="breadcrum-item"><span><a href="{{ $.Scratch.Get `url` }}">{{ humanize . }}</a></span></li>
+                        {{ if eq ( $currentLanguage | upper ) ( . | upper ) }}
+                        {{ else }}
+                        <li class="breadcrum-item"><span><a href="{{ $.Scratch.Get `url` }}">{{ index $breadCrumbs .}}</a></span></li>
+                        {{ end }}
                     {{- end -}}
                 {{- end -}}
             {{- end -}}
