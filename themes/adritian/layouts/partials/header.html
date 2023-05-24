@@ -38,15 +38,17 @@
             </li>
 
             <li class="nav-item d-xs-inline-flex d-sm-inline-flex d-md-inline-flex d-lg-none d-xl-none d-xxl-none justify-content-center">
-              {{ $current := .Language }}
-              {{ range $.Site.Home.AllTranslations }}
-                {{ $url := print (substr .Permalink 0 -1 ) $currentUrl}}
-                {{ if eq $current .Language  }}
-                  <a class="pl-2 nav-link bold" href="{{ $url }}"> {{ .Language.Title | upper }} </a> 
-                {{ else }}
-                  <a class="pl-2 align-self-center" href="{{ $url }}"> {{ .Language.Title | upper }} </a> 
+              <div class="text-center">
+                {{ $current := .Language }}
+                {{ range $.Site.Home.AllTranslations }}
+                  {{ $url := print (substr .Permalink 0 -1 ) $currentUrl}}
+                  {{ if eq $current .Language  }}
+                    <a class="pl-2 font-weight-bold text-decoration-none" href="{{ $url }}"> {{ .Language.Title | upper }} </a> 
+                  {{ else }}
+                    <a class="pl-2 font-weight-normal text-decoration-none" href="{{ $url }}"> {{ .Language.Title | upper }} </a> 
+                  {{ end }}
                 {{ end }}
-              {{ end }}
+              </div>
             </li>
           </ul>
         </div>
