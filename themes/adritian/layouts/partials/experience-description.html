@@ -19,6 +19,7 @@
         <i class="icon-arrow-right"></i
       ></a>
     </div>
+    {{ if $experience.button2.btnText }}
     <div class="col-12 col-lg-4">
       <a
         href="{{ $experience.button2.URL | absLangURL }}"
@@ -30,6 +31,7 @@
         {{ $experience.button2.btnText }}
       </a>
     </div>
+    {{ end }}
     {{ if $experience.button3.btnText }}
     <div class="col-12 col-lg-4">
       <a

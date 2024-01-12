@@ -77,10 +77,10 @@ experience:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/luis-felipe-garc%C3%ADa-herrera-650269139/"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Descarga mi HDV"
-    URL: "/files/cv/HDV - Luis Felipe Garcia.pdf"
+#  button2:
+#    icon: "icon-profile-fill"
+#    btnText: "Descarga mi HDV"
+#    URL: "/files/cv/HDV - Luis Felipe Garcia.pdf"
   button4:
     icon: "icon-arrow-right"
     btnText: "Ver detalle"
